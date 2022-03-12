@@ -22,6 +22,19 @@ h3 {
     margin-top: 50px;
 }
 
+h4.home {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#BDAA96;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-style: none none dotted none;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-width: 10px;
+    border-color:#e6e3df;
+}
+
 p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #54627B;
@@ -41,12 +54,30 @@ p {
 }
 
 .navbar a {
-    width: 24.5%;
-    line-height: 50px;
+    width: 22.5%;
+    line-height: 70px;
     text-align: center;
+    font-size: 18px;
     color: #54627B;
     font-weight: bold;
     display: inline-block;
-    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none; }
+
+.navbar a:hover {
+    color:#BDAA96;
+    border-style: none none solid none;
+    border-color:#BDAA96;
+    border-width: 3px;
+    transition-duration: 0.12s;
+    transition-timing-function: linear;
+}
+
+.navbar a.selected{
+    color:#BDAA96;
+    border-style: none none solid none;
+    border-color:#BDAA96;
+    border-width: 3px;
+}
