@@ -32,6 +32,22 @@
 
     <script type="text/javascript" src="script.js"></script>    <!-- Insert JQuery Script -->
 
+    <h2>Let's start our talk</h2>
+		<form onsubmit="return validate()">
+            <fieldset>
+                <legend>Fill out a quick form to get in touch!</legend>
+                <label for="uname">*Name:</label> <br>
+                <input type="text" id="uname" name="uname" value="Your Name" size="20" maxlength ="250"><br><br>
+                <label for="email">*Email address:</label><br>
+                <input type="email" id="email" name="email" value="" placeholder = "abc@defg.com" required ><br><br>
+                <label for="phone">*Phone number (no dashes or spaces):</label><br>
+                <input type="text" id="phone" name="phone" value="" required ><br><br>
+                <label for="message">Message:</label> <br>
+                <textarea id="message" name="message" rows="10" cols="50" maxlength="1000"> </textarea><br><br>
+                <input type ="image" src="images/submit.png" alt="Submit" name= "btnimage"><br><br>
+            </fieldset>
+		</form><br><br>
+
     <footer>
         <hr>
         <h4 id="footer">Keep in touch!</h4>
