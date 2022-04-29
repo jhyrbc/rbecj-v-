@@ -4,6 +4,7 @@ h1 {
     font-size: 120px;
     margin-left: 50px;
     margin-top: 200px;
+    text-shadow: 2px 2px 4px #54627B;
 }
 
 h2 {
@@ -17,7 +18,7 @@ h2 {
 h3 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #54627B;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 50px;
     margin-top: 50px;
 }
@@ -31,6 +32,19 @@ h4.home {
     border-style: none none dotted none;
     margin-left: 40%;
     margin-right: 40%;
+    border-width: 10px;
+    border-color:#e6e3df;
+}
+
+h4.proj {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#BDAA96;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-style: none none dotted none;
+    margin-left: 30%;
+    margin-right: 30%;
     border-width: 10px;
     border-color:#e6e3df;
 }
@@ -143,4 +157,70 @@ label {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-weight: bold;
 	text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+.projects {
+    max-width: 28%;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+
+.projects:hover {
+    max-width: 30%;
+    margin-left: 50px;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+a#more_proj{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#54627B;
+    font-size: 40px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+a#more_proj:hover{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#BDAA96;
+    font-size: 43px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.proj_img {
+    max-width: 40%;
+    margin-left: 50px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proj_img:hover {
+    max-width: 43%;
+    margin-left: 50px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+p.proj_description {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
 }
